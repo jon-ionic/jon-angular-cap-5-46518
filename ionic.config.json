@@ -1,0 +1,7 @@
+{
+  "name": "jon-angular-cap-5",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
