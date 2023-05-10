@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Deploy } from 'cordova-plugin-ionic';
+import { CheckForUpdateResponse } from 'cordova-plugin-ionic/dist/IonicCordova';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,9 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor() {
+    console.log('test version 2')
+  }
+
 
 }
